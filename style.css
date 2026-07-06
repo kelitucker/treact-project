@@ -382,12 +382,19 @@ header {
 }
 
 .feature {
+    display: flex;
+    flex-direction: column;
     width: calc(100% / 3);
 }
 
 .feature__row {
     display: flex;
     padding: 32px 24px;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .feature__img--wrapper {
@@ -406,13 +413,14 @@ header {
 .feature__text {
     margin-top: 8px;
     margin-left: 16px;
+    justify-content: center;
 }
 
 
 .feature__para {
     margin-top: 16px;
     font-size: 16px;
-    max-width: calc(576px / 3);
+    max-width: calc(600px / 3);
     color: rgb(124, 139, 161);
     line-height: 2;
     font-weight: 500;
