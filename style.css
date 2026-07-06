@@ -502,4 +502,56 @@ header {
     z-index: 1;
 }
 
+/*STEPS*/
+
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    position:relative;
+    width: 50%;
+}
+
+.steps__description {
+    width: 50%;
+    padding: 32px 0;
+    padding-left: 16px;
+    display: flex;
+    flex-direction:column;
+    margin-left: 64px;
+    max-width: 640px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 18px;
+}
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height:1;
+    padding-right: 24px;
+}
+.step__title {
+    color: #243e63;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__para {
+    color: #718096;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+    max-width: 316;
+}
 
