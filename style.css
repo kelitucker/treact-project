@@ -686,6 +686,10 @@ header {
 
 /*PRICING*/
 
+.pricing__description {
+    text-align:center;
+}
+
 #pricing .row {
     display: flex;
     flex-direction: column;
@@ -697,13 +701,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-right: 64px;
+    padding-right: 0;
 }
 
 #pricing .section__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align:center;
 }
 
 #pricing .section__para {
@@ -712,8 +714,9 @@ header {
     justify-content: center;
     flex-direction: column;
     text-wrap: wrap;
-    max-width: 820px;
-    padding-left:280px;
+    max-width: 576px;
+    padding-left:0px;
+    margin: 0 auto;
 }
 
 .plan {
